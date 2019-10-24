@@ -1,0 +1,141 @@
+How to start writing java program?
+
+As an developer i must adhere to teh rules of java
+
+1.User can build his/her business logics only in class file
+
+2.Understand what is the structure of a class
+
+Remember that that class is having a proper defined syntax
+
+Synatx:
+
+class ClassName
+{
+	//Business Logic
+}
+
+3.How to start writingmy business logics?
+Understand that class is ahving 5 major components
+
+	* Variables
+	* Methods
+	* static block
+	* instance block
+	* constructor
+
+Note:
+The major rule that i need to remember is 
+
+Where ever i wrote my logics, but to make my logics to be get executed, it must be call or access within the main block.
+
+main block is called as mainmethod.
+
+
+syntax:
+
+class ClassName{
+
+public static void main(String[] args){
+//call or access your business logic here
+
+}
+
+}
+
+In Java if we need to print or display and output
+we use a statement called 
+
+system.out.println("Statement here");
+
+When ever your statement is completed it must be end with "semicolon"
+
+
+Lets understand, the first major component of a class
+
+
+
+Variable:
+
+Variable is called as memory holder to save the data and to send the data
+
+to store data into a variable, we must need to define its type.
+
+defining type is called as "DataType"
+
+Datatype is the one which tells that what kind of data that the user is going store in the memory
+
+syntax of creating a variable:
+
+datatype variableName;
+
+The above statement is called as "Declaration"
+
+when we declared a variable, compiler will create a memory space to store the data
+
+
+Now we need to insert a value inside the memory block
+
+
+inserting value into a memory block is called as "intilization"
+
+syantx:
+
+variable=some value;
+
+
+Together Syntax:
+
+Datatype variablename;
+variablename=somevalue;
+
+This datatype is classified into 2 types
+
+	* Primitive Datatype
+	* Non-Primitive Datatypes
+
+What is the difference in between these two?
+
+1.Abbrevated cases
+
+Total 8 types whaich are common between these two
+
+Non Primitive:
+===================
+int
+boolean
+char
+short
+double
+long
+float
+byte
+
+
+Primitive:
+===================
+Integer
+Boolean
+Character
+Short
+Double
+Long
+Float
+Byte
+
+Strings
+BIGDECIMAL
+ARRAYS....
+
+For all primitive datatypes there aree some metrhods associated with it.
+
+
+for non primitive we dont have any methods mappede
+
+
+
+
+
+
+
+

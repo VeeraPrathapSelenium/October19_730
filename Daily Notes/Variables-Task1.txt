@@ -1,0 +1,16 @@
+Problem Statement:
+
+I want to add 3 numbers and when i execute teh my program, i must see the output as 
+
+
+"The Sum Of Three Numbers is :"somevalue
+
+
+Algorithm:
+
+1.Create 4 variables
+2.var1=somevalue
+3.var2=somevalue
+4.var3=somevalue
+5.add 3 values(var1+var2+var3) and store it in 4th variable
+6.system.out.println("The Sum Of Three Numbers is :"+var4)

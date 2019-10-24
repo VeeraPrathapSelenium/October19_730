@@ -1,0 +1,35 @@
+Static Vs Instance
+
+
+Object is called as instance of a class.
+
+A object is used to access the properties of a class, predominantly isntance items that arre present in that particular class.
+
+An object is also used to access the static related items of that particular class.
+
+
+This object can be created in two ways
+
+1)Name Object
+2)Nameless Object
+
+Name Object:
+
+syntax:
+
+ClassName somerefVariable=new ClassName();
+
+
+new ClassName()----Object
+somerefVariable---name of the object
+
+Name Less Object:
+new ClassName()
+
+
+
+
+
+
+
+
