@@ -1,0 +1,52 @@
+Global Variable:
+
+Variable which is created at the class level but not inside a method
+
+Lifetime of this variable will available through the class and execution
+
+
+Local variable:
+Variable which is created at the method level but not out side a method
+
+Lifetime of this variable will available only within the method
+
+Note:
+Once you declared a local variable inside a method and not intialized and if the user utilized the un intialized variable, the compiler will throw an error.
+
+Once you declared a global variable and not intialized and if the user utilized the un intialized variable, the compiler will not throw any error, rather it will take the default values based on the datatype
+
+
+
+int==0
+double=0.0
+short 0
+long=0
+byte 0
+boolean =false
+float 0.0
+
+
+
+How to differentiate between global and local?
+
+Use a key word called "this"
+
+this represent current class variables
+
+
+if we want to use your class level variable , better way is access them using this keyword
+
+
+Note:
+
+this keyword can not be used in static block
+
+this can be used to access the static variables or methods
+
+
+
+
+
+
+
+
