@@ -1,0 +1,16 @@
+Operators:
+
+Arthimatic operators==+,*,-/
+Relation operators
+
+
+==,>,>,<=,>=,!=
+
+
+Logical operators--and and or (&,||)
+
+conditional operator or ternary operator
+
+(condition)?True statement:False statements
+
+

@@ -1,0 +1,104 @@
+Conditional Statements:
+
+Problem statement:
+
+As an user i want to check if the movie is playing the specified theater or not
+
+if the movie is playing , i need to check if my 100Rs tickets are avialble
+
+if there is no 100 rs tickets available i want to search for 60Rs tickets
+
+
+if still i dint find them , i need to choose different language
+
+
+In this above probelem statement user is performing a\some action, while doing this operation he needs to check for some thing, idf it is not available he need stoperform some other action
+
+in in other words, this user is doing decison making
+
+
+This conditionla statement in java are used to take a DECISION  on some conditions
+
+these statements are used to control the flow of execution
+
+
+java supports the following conditional statements
+
+
+	* simple if
+	* if else
+	* else if
+	* switch case
+
+
+in the above listed items, each one of the individual will works on some condition.
+
+this condition will always check with "True"
+
+Syntax:
+
+
+Simple if:
+
+if (some condition)
+{
+
+//logic here
+
+}
+
+here the code will get executed only when the condition is true
+
+here when the condition is false. then the logic indide the block will never get executed
+
+Else:
+
+This else block will get executed, only when the if statement is false.
+
+when if is false, then without checking the condition, the else block will get executed
+
+
+Problem statement 1:
+
+as user i will give some input vales to variabe "a" and "b"
+
+you have to check if a is in the range of 20 and 50
+
+b is in the range of 30 and 60
+
+
+
+
+Problem statement 2:
+
+as user i will give some input vales to variabe "a" and "b"
+
+a=30,b=40
+
+when a is greater than b, i need to print "A is greater than B"
+
+when the statement is false, i need to check if a is in the range of 10 and 40 , even when it is false, i need to print the statement as "A is not greater than B , also not in the range of 10 and 40"
+
+Syantx Elseiement 3:
+
+
+Problem statement 3:
+
+if i input a value =1, i need to get the output as "Sunday"
+
+if i input the value =2, i need to get the output as "Monday"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
