@@ -1,0 +1,48 @@
+Switch Case:
+
+
+Switch case is replace of multiple "else if" statements.
+
+Switch case will work on cases that were mentioned by the user.
+
+only when the matching case is available, switch case will execute only that particular matching case alone.
+
+
+it will not check any other cases.
+
+What will happen if any one of the case is not getting matched?
+
+on the switch case, there will be a case called "default".
+if the user has given this default block, tehn this block will executed whene ever there is an invalid entry
+
+
+syntax:
+
+switch(key)
+{
+
+case somevalue:
+
+	//logic
+	break;
+
+case somevalue:
+
+	//logic
+	break;
+default:
+	//logic
+
+
+}
+
+
+Note:
+If we observe in the above synatx, there is a break statement avilable
+
+it is mandatory , to give a break statement after every logic in the block
+
+if we are not giving the break statement after the business logic, the compiler will execute the next block(case)
+
+After the break statement we are not suppose to write any other statements, except a case.
+

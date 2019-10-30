@@ -1,0 +1,67 @@
+Looping statements:
+
+Java supports the following looping statements
+
+	* for
+	* while
+	* do while
+	* for each
+
+Why looping statements are required?
+
+To repeat a same statement for a specific number of times, this looping statements are used.
+
+
+Looping statements are also to iterate the value of a variable in run time
+
+
+Understand how the for loop will get executed:
+
+Syntax:
+
+for(int somevariable;condition;increment/decrement)
+{
+
+//logic
+
+}
+
+This for loop is called as "definite loop"
+
+Problem statements 1:
+
+As an user i want to print "Welcome" for 20 times 
+
+
+
+Problem statement 2:
+
+Print 5 table using for loop
+
+
+5 * 1 = 5
+5 * 2 = 10
+5 * 3 =15
+5 * 4 = 20
+
+
+5 * 20 =100
+
+user_given_input +"*" +i = user_given_input * i
+
+
+
+
+Problem statemts:
+
+Print first 50 even numbers
+
+Print first 50 odd numbers
+
+print first 50 prime numbers
+
+write a logic of factorial program
+
+write a logtic of armstrong number
+
+
