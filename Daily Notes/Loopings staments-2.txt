@@ -1,0 +1,40 @@
+Break :
+
+
+Break is a keyword which is used to exit from the loop
+We need to use the break statement based on some condition
+
+
+Continue:
+
+Continue is a keyword which is used to skip the current iteration.
+
+
+While:
+
+This loop is called as indefinite or infinite loop
+
+This loop will not  have self increment factor as how we have in for loop
+
+User must needs to provide the increment factor.
+
+
+How while loop will work?
+
+it will check for the true condition, if satatement is true then itr allows to execute the body
+
+
+
+Do while?
+intially for the first time it will not check for the  condition, without checking any condition the body will get executed.
+
+once the body is executed, it will check for the condition
+
+on second iteration onwards, it will check for the condition is true or false.
+
+only the condition is true, the body will get executed.
+
+
+from this loop. we underatnd that, atleast once my logic will get executed.
+
+
