@@ -1,0 +1,25 @@
+Strings:
+
+Strings are called as collection of words, numbers,special characters including white space.
+
+Strings must be represented in "Double Quotes"
+
+What ever we represent inside the double quotes, we treat it as string.
+
+String can be declared in multiple ways:
+
+	1. String somevariable="india 1234 /*-- ";
+	2. String somevariable=new String("india 1234 /*-- ");
+	3. StringBuffer somevariable=new StringBuffer("Some data)
+	4. StringBuilder someref=new StringBuilder("some data");
+
+
+
+Based on type of declartion string will get memory shared on two regions
+
+	* Heap memory
+	* String constant pool memeory or pool memory
+
+
+With this concept we call strings as "immutable"
+

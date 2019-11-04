@@ -1,0 +1,33 @@
+a=10
+b=20
+
+a=20
+b=10
+
+condition : 
+
+use a third variable
+
+not to use third variable
+
+
+without using a looping statement neither for or while loop print first 50 numbers
+
+
+Hint :use method recursive and your conditional statements
+
+Fibonical Series:
+
+0 1 1 2 3 5 8 13 21 34
+
+While printing this fibonical series display only prime numbers
+
+While printing this fibonical series display only even 
+numbers
+
+While printing this fibonical series display only odd
+numbers
+
+
+
+

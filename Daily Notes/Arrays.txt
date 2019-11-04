@@ -1,0 +1,50 @@
+Arrays:
+
+Arrays are called as collection of same datatype items
+Once you declare an array of some type, we can cant add any other data type item
+
+So with reason arrays are called as "HOMOGENIUS"
+
+Note:
+
+Once declared an array with some size, one can not change the size in run time.
+
+So arrays length is called as Fixed Length
+
+Arrays elements can be "Duplicate"
+
+
+When you add an item into an array, the item will be inserted at the respective index.
+
+index will always start from "ZERO"
+
+so it means that, when ever the user want to retrive the data from the array, one must retrive it on index only.
+
+
+Can i able to update an item on the array?
+
+Yes, we can but we must need to specify the index, where we want to change the item.
+
+
+How to create an array?
+
+DataType[] somename=new DataType[size];
+
+DataType[] somename={"item1","item2"......."item3"};
+
+
+
+How can i add an other datatype items into an array?
+
+Yes we can add by using hetrogenius array called "Object Array"
+
+Syntax:  
+Object[] somevariablename=new Object[size]
+
+
+
+
+
+
+
+
