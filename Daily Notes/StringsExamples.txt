@@ -1,0 +1,20 @@
+Problem statement:
+
+I have a string "Welcome to Selenium Training"
+
+i need to print the characters in reverse order.
+
+ex:
+
+india===>aidni
+
+
+Problem Statement :
+
+i have a string 
+
+"India is great country INDIA is having large population iNDIa is having good landscapes"
+
+Count how many times, india got repeated
+
+Display each word index position also

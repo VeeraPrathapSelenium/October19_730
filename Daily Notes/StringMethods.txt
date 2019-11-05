@@ -1,0 +1,118 @@
+Methods associated With strings.
+
+There are few methods available with strings, which are used to manipulate the data.
+
+1.Length
+
+This method is used to get the total length of the given source string.
+
+input:String
+
+returntype:integer
+
+Syntax:
+string or stringvariable.length()
+
+2.chartAt(indexposition)
+
+This method is used to get character from the user given index position
+
+input:String
+
+returntype:character
+
+Syntax:
+string or stringvariable.charAt()
+
+
+3.ToUpperCase
+This method is used to convert the given source string into uppercase
+
+input:String
+
+returntype:String
+
+Syntax:
+string or stringvariable.toUpperCase()
+
+4.ToLowerCase
+This method is used to convert the given source string into lowercase
+
+input:String
+
+returntype:String
+
+Syntax:
+string or stringvariable.toLowerCase()
+
+
+
+5.Replace
+This method is used to replace the findvalue with user given word
+
+Note:
+
+
+input:String
+
+returntype:String
+
+Syntax:
+string or stringvariable.replace("findvalue","replacevalue")
+
+
+6.equals
+This method is used to compare two strings with respect to data
+
+
+
+input:String
+
+returntype:boolean
+
+Syntax:
+string1 or stringvariable1.equals(String 2 or stringvariable2)
+
+
+7.equalsIgnoreCase
+This method is used to compare two strings with respect to data by ignoring the cases
+
+
+
+input:String
+
+returntype:boolean
+
+Syntax:
+string1 or stringvariable1.equalsIgnoreCases(String 2 or stringvariable2)
+
+
+7.contentEquals
+This method will also works as same as "Equals".
+
+input:String
+
+returntype:boolean
+
+Syntax:
+string1 or stringvariable1.contentEquals(String 2 or stringvariable2)
+
+
+
+
+
+8.Split
+This method is used to break the given string into words
+
+
+input:String
+
+returntype:String Array
+
+Syntax:
+string or stringvariable.Split("delimiter")
+
+Note:
+If no delimiter is specified, then it will breakrs a space
+
+space is default delimiter
