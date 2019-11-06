@@ -1,0 +1,27 @@
+indexOf()
+
+This method is used to find the index of given substrig or word.
+
+When is substring got matched on the source string , this method will give the index of the starting letter in that particular word.
+
+Note:
+If there are multiple occurances available, it will take the very first occurance only.
+
+
+SubString()
+This method is used to crop the sequence of characters
+
+User must specify the starting index position from where the method should extract the data
+
+
+syntax:
+
+string or string variable.subString(starting position, length of characters)
+
+
+Note:
+The second parameter is optional.
+
+When we do not specify the second paramter, the compiler will crop the entire string from the starting position.
+
+

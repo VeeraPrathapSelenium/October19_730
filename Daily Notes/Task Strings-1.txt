@@ -1,0 +1,10 @@
+Problem Statement:
+
+The Transaction id (1089) is sucessfully generated.
+
+
+Extract the Numeric part of the string
+
+Hint: User index find the positions of parenthesis and use substring to extract the number
+
+Conditions:Do not use any looping statements or conditional statements
