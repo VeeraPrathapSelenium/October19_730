@@ -1,0 +1,23 @@
+lastIndexOF:
+
+This method is used to get the  last occurance (index) of the given word on the source string
+
+Character class:
+isDigit
+isDigit
+
+
+Problem Statement:
+
+The Transaction id :1089 @The Voucher number :852 @The Transaction id:851
+
+Required output is :
+
+The Transaction id :1089
+1089
+
+The Voucher number :852
+852
+
+The Transaction id:851
+851
