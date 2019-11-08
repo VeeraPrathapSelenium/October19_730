@@ -1,0 +1,17 @@
+Trim()
+
+This method is used to remove the space in starting and ending of the given source string
+
+Contains()
+This method is used to verify if the user given word is available in the source string or not.
+
+
+Problem Statement:
+
+in my given string "i am learning java with selenium"
+
+find what are the repeated characters available on the string as well as non repeated characters
+
+Condition:Strictly use only string methods
+
+
