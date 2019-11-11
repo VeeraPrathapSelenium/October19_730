@@ -1,0 +1,45 @@
+Regular Expression:
+
+regular expressions are used to validate or to extract data based on a pattern
+
+pattern is sequence of characters which is created by the user that which maps to the data that is looking for
+
+
+Generally, we may come across to validate the email id, date of birth etc
+
+when we wantto perofrm such data formats using string method is little costly and leads into performance issues also
+
+
+To overcome these problems regex are used.
+
+inthis regex , one must be very strong in creating patterns
+
+
+How to write patterns?
+
+Character Set===
+
+[A-Z][a-z][0-9]
+[A-Za-z]
+
+
+combinations==={size}
+
+
+special characters===\special character
+
+any number of characters === *
+
+except or not===[^a-z] or [^A-Z] or [^0-9]
+
+
+
+
+
+
+
+
+
+
+
+
