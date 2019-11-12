@@ -1,0 +1,78 @@
+Collection frame work in java
+
+
+Collection is a root interface
+
+Under this we have 
+
+	* List
+	* Set
+	* Queue
+
+Typically a variable is used to store a single value,
+
+To over the above problem arrays were introduced.
+
+But in arrays, the size is fixed and it can be change in run time.
+
+To over come this colelction frame work is introduced.
+
+There is a huge difference between collection and collections
+
+Collection is an interface
+Collections is an utility class having different methods associated with it.
+
+In General an interface will not allow the user to create an object to the interface, where as a class allows the user to create an object
+
+
+So in according to it, under collection interface we have 3 main sub interface which are called as 
+
+	* List
+	* Set
+	* Queue
+Each one of this is used to store the objects
+
+So collection is called as collection of objects
+
+When the user doesnt specify any time, each one of the collection object has tendency to store different types
+
+But also collection support generic types
+
+
+
+List:
+
+List is an interface, where not allowed to create an object
+
+The list is implemented in Arraylist,linked list and vector stack
+
+
+syntax:
+
+List somerefvariable=new ArrayList();
+
+Withtype:
+
+List<String> somerefvar=new ArrayList<String> ();
+
+
+List allows the user to add multiple items
+List allows the user to add duplicate values
+List preserve the order of insertion
+List allows the user to iterate over a iterator called list iterator
+
+List allows the user to add a null 
+
+Note:
+To retrive an item from a list , one must specify an index.
+
+
+
+
+
+
+
+
+
+
+
