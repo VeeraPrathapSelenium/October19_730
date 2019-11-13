@@ -1,0 +1,29 @@
+Display/Field Type:
+
+When teh user launches home page , verify that the field "Dear" is displayed as static text field in the header section on Home page
+
+Rule based:
+
+If it is text box
+
+	* BVA
+	* 7 1-3 4-6 6-10
+	* Empty check
+	* Required field
+	* Aphanumeric
+	* Special characters
+	* only alphabets
+	* only numeric
+	* Readonly
+	* Key stroke
+	* Data persistance
+
+Link:
+
+	* Text
+	* Click and naviagte
+	* Visited link ,unvisited link
+	* Exist
+
+	
+

@@ -1,0 +1,30 @@
+Exception Handling
+
+Any thing that behaves or deviates from the actual expected behaviour
+
+When there is a risk, there will be a probability of getting exception.
+
+In our programming when we try to to write any logic, and we are not known about the ris, if the code dint get executed well the system will throw an exception and leads to system halt.
+
+
+It is mandatory and necesary for each one of the developer to anticipate the risk and steps to be takemn care.
+
+In Java, exceptions are divided into 2 types
+
+
+	* Checked Exceptions
+	* Un-Checked Exceptions
+
+Checked Exceptions are the exceptions which are caught by the compiler during the design time.
+
+
+Exception which are not caught by the compiler is called unchecked Exceptions
+
+****************************
+
+throwable
+throws
+throw
+
+User defined Exception(RunTime,DesignTime)
+

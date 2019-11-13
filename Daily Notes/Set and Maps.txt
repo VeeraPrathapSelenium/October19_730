@@ -1,0 +1,34 @@
+Set:
+Set is one of the collection object
+
+Set is unordered
+
+Set can not contains duplicates
+
+When the user attempts to add a duplicate, it will not throw any exception.
+
+but while printing the values it will show  only on value
+
+Adding:add()
+remove:remove(object)
+
+Note:When we try to remove an object, if the object is not available, it will not throw any exception
+
+
+
+Map:
+
+Map is one of object, which is used to store the values based on key and value pairs
+
+
+Map will not allows the user to have duplicate keys
+
+if a key is duplicated it will take the most recent 
+
+key can be a null, where as values can be a null
+
+
+Key can be any type
+Value can be abe any type
+
+Values will be retrived based on keys
