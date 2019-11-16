@@ -1,0 +1,56 @@
+HTML Tags are classified into two categories:
+
+
+
+	* Paired HTML Tags
+	* Unpaired HTML Tags
+
+
+Tags which are having opeening and closing is called as "Paired Tag"
+
+<HTML>
+<HEAD>
+<TITLE>
+Write your title here.
+</TITLE>
+</HEAD>
+<BODY>
+
+</BODY>
+</HTML>
+Begin your main body of text here.
+
+
+
+
+Tags which are not having closing tags are called as Unpaired tags
+
+ex:
+<img>,<input>
+
+
+
+For these unpair tags , we wil not have innertext or innerHTML
+
+
+
+To identify any one these elements we need some identification properties we called it as locator or selectors etc
+
+
+there 8 types of selectors where selenium supports to identify an element on the browser
+
+
+	* ID
+	* Name
+	* CSS====******
+	* XPATH===*****
+	* Link Text
+	* Partial Link Text
+	* Tag name
+	* Classname
+
+The above listed attributes will be given by the actual developer of the application.
+
+
+
+these properties might be dynamic or static in nature, but QA must need to handle the dynamic properties accordinglyl.
