@@ -1,0 +1,133 @@
+Writing XPATH:
+
+xpath is available in two forms
+
+	* Absolute XPATH
+	* Relative XPATH
+
+Absolute xpath will denote with "/"
+
+Relative xpath will denote with "//"
+
+
+Absolute xpath will take reference from the root element called "HTML"
+
+
+Relative xpath will take reference from the intermidiate element level
+
+What exactly a xpath mean?
+
+It helps the user to identify the element of an application through DOM
+
+DOM stands for "DOcument Object Model"
+
+Taking absolute xpath into considersation is completely a wrong step.
+
+As it takes reference from the Root element HTML, it consumes much time in identifying an element.
+
+So to replace this, we use Relative xpath in place.
+
+
+How to write a relative xpath?
+
+//htmltag[@attribute='value']
+
+This will work only if the attributes are getting match
+
+attribute might be 
+	* id
+	* class
+	* name
+etc.
+There will some custom attributes which are defined by the developer of the application.
+
+These attributes may be static or might be dynamic in nature.
+
+While we write any xpath , check if you are having an "id"
+
+Id is a unique representaion of an element, only single occurance will be there.
+
+
+How can i say if that ID is static or not?
+
+It is difficult to identify if the id is static or not, but at the high level we can examinbe the id.
+
+When your id is binded with a numeric we can expect that id will be change every time
+
+
+Fine..!! when there is a direct attribute we do not face any issue, in case there attributes are purely dynamic in nature
+or if there is no attributes available, then we need to handle effectively
+
+To do this we must need to understand , the types that are avilable under relative xpath.
+
+	* Farward xpath
+
+		following-sibling:: * or htmltag
+		child:: * or htmltag
+		following::* or htmltag
+		descendants::* or htmltags
+
+
+	* Backward xpath
+
+		preceding-sibling:: * or htmltag
+		parent:: htmltag
+		preceding::* or htmltag
+		ansector::* or htmltags
+
+	* logical xpath
+
+		and , or
+
+	* Function notated xapth
+			text()---works only on pair tags
+			starts-with()
+			contains()
+			last()
+			normalize-space()
+			()--group
+
+How to use text() method:
+
+this method can implement directly on any paired html tag
+
+this method will check all the html tags whose text is matching with user given string
+
+we may get one or multiple elements
+
+
+these elements which are identified more than one might be visible or hidden in the backgroud
+
+we must need to see which of those element is getting highleighted in the FE.
+
+
+When we try to identify the text of an element, we may get a space before or after.
+
+One must need to ignore the spaces on the text, with help of a method called normalize-space().
+
+normalize-space() is method which can be implemented only on text method
+
+
+*****
+When we we have multiple elements on the identification process, if we want to identify specific elements, tehn use group---(), later specify the index position
+
+
+
+Syantx to use text() method with normalize-space():
+
+//htmltag[normalize-space(text())='value']
+
+Syantx to use text() method with ():
+(//htmltag[normalize-space(text())='value'])[index value]
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+Configure Maven
+
+
+Maven is a build tool, which is used to download the depency jar files that are required on our project.
+
+Every time user is not required to download and patch the jarafile.
+
+
+in maven we have a file called "POM.xml"
+
+
+POM stands fro project object model.
+
+
+This XML contains majorly 2 section
+
+
+	<Depencies>
+	<build>
+
+<Dependencies>:
+
+in this section we will provide the required depencies on our project
+
+<Build>
+in this section we provide the classfile or unit test xml file where our test cases need to get execute.
+
+This maven project is having a conditional check before proceeding to download.
+
+
+The check will be on the Local Repsoitory Vs Remote Repositry
+
+
+When we download the maven, by default under c:\User there will be a folder called .m2
+
+Under this there will be a folder called "repository"
+
+this folder is called as "Local Repository"
+
+
+So maven before downloading any files from the remote repository(cloud), it will check in the local first, if not available it will fetch from remote repository
+
+
+
+
+Steps to configure the maven project:
+
+1.Go to google and search for maven
+
+
+
+
