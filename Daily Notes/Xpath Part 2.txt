@@ -1,0 +1,55 @@
+Handle dynamic attributes:
+
+
+starts-with:
+==================================
+i have an id as "ABC123"
+
+in this id 123 will keep changing all the time
+
+it might be 123 or 456 or 789.
+
+But i am where much sure that , ABC will always remain same.
+
+In Such scenario how can i take the id into consideration for element identification
+
+so we can use a method called "starts-with"
+
+
+starts-with:
+
+it will search for user give attribute , whose tag is getting matched(starting with) on the HTML document
+
+syntax:
+//htmltag[starts-with(@attribute,'value')]
+
+if there are multiple tags getting matched, then we need to take the index by grouping
+
+============================================================
+starts-with with text()
+
+syntax:
+//htmltag[starts-with(text(),'value')]
+
+==========================================================
+Contains():
+
+Only a part of the attribute remain constant, and rest of the part is dynamic, then we can use "contains" as a method in xpath identification.
+
+syntax:
+//htmltag[contains(@attribute,'value')]
+
+//htmltag[contains(text(),'value')]
+
+=======================================================
+
+How to identify all the elements with a specific tag?
+
+
+
+
+
+
+
+
+
