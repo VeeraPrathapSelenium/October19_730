@@ -1,0 +1,80 @@
+What is meant CSS?
+
+CSS stands for cascading style sheets.
+
+Thesewere used by the devlopers to give rich look ui on the front end.
+
+
+As we all know that, using xpath we cAN IDENTIFY AN ELEMENT, TO THIS SIMILAR, css ALSO FIT FOR identifying the elements on the DOM.
+
+But the only thing i need to remember here is , Xpath have more oprtion to identify an element, where as CSS have less option to identify an element.
+
+Note:
+
+When we start writting the css, just check if there is an id available.
+
+
+Then user can use "#id"
+
+Identify the element using class:
+
+synatx:.classname
+
+Handling dynamic properties of an attribute using CSS:
+
+Normal Syntax:
+htmltag[attribute='value']
+
+starts-with==^
+htmltag[attribute^='value']
+
+
+contains==*
+htmltag[attribute*='value']
+
+
+ends-with==$
+htmltag[attribute$='value']
+
+Note:In CSS we can not use text as how we use in Xpath
+
+How to traverse from a element as how we traverse in xpath?
+
+Yes we can traverse using ">"
+
+When i dentify an element with css, i am getting mutiple values for suppose in the below example
+
+<select name="DateOfBirthDay">
+	<option value="0">Day</option>
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="6">6</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+	<option value="10">10</option>
+</select>
+
+CSS:select[name$='DateOfBirthDay']>option
+
+here i am getting mutiple option values,
+
+From this can i able to select a specific element?
+
+Using "nth-child(index)"
+
+
+Can i find siblings(Following-sibling) using css
+Yes by using "+"
+
+Using this syntax, we will get the next immidiate sibling only, in other words , we will get only one element
+
+
+
+
+
+
+

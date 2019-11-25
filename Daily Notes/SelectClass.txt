@@ -1,0 +1,38 @@
+Actions Class:
+
+This class is used to perform some specail actions like 
+
+moveToElement
+doubleClick
+contextClick
+DragAndDrop
+ClickAndHold
+DoubleClick...etc
+
+
+Note:After using action class, synatx must end with build().perform();
+
+
+
+Handling DropDowns:
+
+Dropdowns can he handled in 3 ways
+
+	* Using Select Class
+	* Using xpath
+	* Using CSS
+
+Using Select Class:
+One should remind that, this select class will worl only if the element tag is <Select>
+
+
+User can select the option of a dropdown by 3 ways
+
+
+	* by visible text
+	* by value
+	* by index
+
+
+
+

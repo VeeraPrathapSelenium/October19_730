@@ -1,0 +1,18 @@
+I dentified an element using xpath  but selenium web driver is failing to click on it.
+
+Then i changed the selector to css, even though i changed it is failing to click on it how can i handle this situation?
+
+In such cases, using javascript exceutor in oder to click onthe element.
+
+This javascript executor is called as an interface
+
+using this java script executor , we can able to click the buttons even if they are in hidden mode
+
+User can execute the function which are available in the background in js format
+
+
+Syntax:
+
+JavaScriptExecutor js=(JavaScriptExecutor) driverObject;
+js.executeScript("arguments[0].click();",WebElement);
+

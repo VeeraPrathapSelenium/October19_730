@@ -1,0 +1,21 @@
+How can i close a browser?
+
+driverobject.close();
+
+How can i kill a current session?
+
+
+driverobject.quit();
+
+
+difference between close and quit?
+close====it will only close the browser, but the driver object will be always be in live state, user can open a new browser with the existing driver object.
+
+
+quit===it will kill the driver object, user can not use the existing driver object to open a new browser, instead he need to redeclare the drivcer object.
+
+
+When should i use close and quit?
+
+
+after each test case use close, after each suite use quit

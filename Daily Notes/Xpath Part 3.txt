@@ -1,0 +1,15 @@
+How can i combine one or more attributes to identify an element?
+
+Yes we can identify using "And " ,"Or" logical operators
+
+Ex:
+
+//input[@id='FirstName' and @name='FirstName']
+
+//input[@id='FirstName' or @name='FirstName']
+
+
+How can i find the values whose range is given?
+
+Yes we can do using comaprison operators.
+//option[@value>=5 and @value<=10]
