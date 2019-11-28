@@ -1,0 +1,9 @@
+Frame Handling
+
+1.Before you identify your element on the page, check if the freame is available
+
+2.xpath://iframe
+3.if available, identify the frame
+4.Switch over it
+5.Perform operation
+6.switch back to default mode.

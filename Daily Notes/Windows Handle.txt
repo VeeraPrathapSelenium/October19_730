@@ -1,0 +1,16 @@
+Windows Handling:
+
+Each browser will have a window componnet
+
+each componnet will have a unique id.
+
+One must need to identify what is parent window and what is child window
+
+Steps to follow
+
+1.Collect the parent window
+2.Collect all windows(Parent+child)
+3.Use iteartor and iterate each window
+4..Check that , current window is not equal to parent window
+5.When the step 4 satisgy , witch to window and close it.
+

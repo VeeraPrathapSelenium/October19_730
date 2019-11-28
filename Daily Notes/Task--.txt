@@ -1,0 +1,23 @@
+
+List<Integer>prices=new ArrayList<Integer>();
+
+
+
+for()
+{
+
+//get teh phone name
+//prices
+prices.add(Integer.valueof(prices));
+
+
+
+}
+
+
+Collection.sort();
+
+//to print first value
+sysout(prices.get(0));
+
+sysout(prices.get(prices.size()-1));
