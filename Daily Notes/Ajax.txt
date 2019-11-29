@@ -1,0 +1,11 @@
+Handle Ajax Controls(Search results)
+
+We oftenly come across this scenarion on each application, say suppose the user need tos earch the results on the page by using some username.
+
+When we do search operation the system will try to give some search results,
+
+these results will populate from backend datatbase.
+
+now we may need to verify if those results are correctly populated or not
+
+
