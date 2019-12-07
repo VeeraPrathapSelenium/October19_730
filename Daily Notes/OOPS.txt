@@ -1,0 +1,36 @@
+i want to develop a app for school registration.
+
+the feature of school app must have 
+
+	* adding a student
+	* deleting a student
+	* searching a student
+	
+Conditions:
+
+As user i must be able to send the details of the student like name, class, section
+
+your logic must generate a sequential id for each student
+
+
+Your app must be able to customize, when i sold this app to any other school
+
+Use proper oops concepts and implement this.
+
+
+
+Sending datat to class is achived only by using the constructor
+
+This constructor is used to intilize the classlevel variables
+
+this constructor will invoke when ever a object to that particular class is created
+
+constructor is available in two formats
+	* parametrized constructor
+	* non-parameterized constructor
+
+By default , when the user not created any constructor, a zero argument based constructor will be created in the back ground
+
+
+A constructor will always be like a classname
+it is also a block , which contains the busness logic, and will get executed onlu on the object creation.

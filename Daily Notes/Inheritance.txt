@@ -1,0 +1,51 @@
+Understand OOPS:
+
+
+Object oriented programming.
+
+it helps the user to develop the applications based on a relationship as how the real world exist.
+
+There few major components available in the OOPS
+
+	* Class
+	* Object
+	* Inheritance
+	* Polymorphisim
+	* Encapsulation
+	* Abstarction
+	* Interfaces
+
+Class is called as a blueprint, where user will define the logic inside it.
+
+Object is an instance of class, which allows to access the properties of the class for which object is created.
+
+Inheritance:
+
+It is one of the major pillar of the OOPS concept.
+it is used to estlablish the relation between two class using a keyword called "extends"
+
+
+it is simply defined as "Acquiring the properties of a parent class by a child class"
+
+
+There are different levels of inheritanxce exist
+	* single'
+	* multilevel
+	* hierarchial
+	* multiple(not possible)	
+	* hybrid(not possible)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

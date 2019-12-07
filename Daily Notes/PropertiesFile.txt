@@ -1,0 +1,8 @@
+Working with Properties files:
+
+Properties files are used to maintain the environment, configuration deatils like username,password, url , port and server details etc.
+
+
+in few project this properties file is also use as Object repository.
+
+This file has extension as ".properties"

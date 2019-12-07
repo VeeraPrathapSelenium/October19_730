@@ -1,0 +1,51 @@
+
+Tc_01:
+
+Launch Application
+Navigate to computer tabs
+Click on the desktop
+click on Under $1,000.00
+print the items count
+
+Tc_02:
+
+Launch Application
+Navigate to computer tabs
+Click on the desktop
+Click on the digital download
+print the items count
+
+Tc_03:
+Launch Application
+search the word laptop
+print the items count
+print the item name
+choose the highest price laptop(add to cart)
+Go to cart
+verify the product name
+verify the added item is available under products
+verify price under price column
+Click on the continue shopping
+Verify search text box is displayed
+search for apple
+verify that the apple prodcuts only displayed
+Navigate to home tab
+Scroll down
+under feature product
+add Apple mac book to cart, store the price of laptop
+Verify the toast message
+navigate to shooping cart and verify the previous item and current item added are available
+verify the product name
+verify the added item is available under products
+verify price under price column
+
+Remove all the item
+
+Verify that there are no items are available in the cart
+verify shopping cart has value as zero
+
+
+
+
+
+
